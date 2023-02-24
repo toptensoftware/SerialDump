@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialDump", "SerialDump\SerialDump.csproj", "{211711B6-717D-4961-9AEE-FDAB371D192C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialDump.NET", "SerialDump.NET\SerialDump.NET.csproj", "{211711B6-717D-4961-9AEE-FDAB371D192C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialDump", "SerialDump\SerialDump.csproj", "{BD36166A-5F4D-4EB5-A3EE-4D022C13CCDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{211711B6-717D-4961-9AEE-FDAB371D192C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{211711B6-717D-4961-9AEE-FDAB371D192C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{211711B6-717D-4961-9AEE-FDAB371D192C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD36166A-5F4D-4EB5-A3EE-4D022C13CCDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD36166A-5F4D-4EB5-A3EE-4D022C13CCDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD36166A-5F4D-4EB5-A3EE-4D022C13CCDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD36166A-5F4D-4EB5-A3EE-4D022C13CCDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -34,16 +34,7 @@ namespace SerialDump
             Console.WriteLine("  --databits:<value>     Number of data bits");
             Console.WriteLine("  --parity:<value>       None (default) | Odd | Even | Mark | Space");
             Console.WriteLine("  --stopbits:<value>     None | One (default) | Two | OnePointFive");
-            Console.WriteLine("  --list                 Show list of available ports");
             Console.WriteLine();
-        }
-
-        static void ShowPortList()
-        {
-            foreach (var p in SerialPort.GetPortNames())
-            {
-                Console.WriteLine(p);
-            }
         }
 
         public static bool ProcessArg(string arg)
@@ -77,10 +68,6 @@ namespace SerialDump
                     case "v":
                     case "version":
                         ShowLogo();
-                        return false;
-
-                    case "list":
-                        ShowPortList();
                         return false;
 
                     case "baud":

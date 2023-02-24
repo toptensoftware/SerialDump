@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SerialDump": {
+      "commandName": "Project",
+      "commandLineArgs": "--list"
+    }
+  }
+}
